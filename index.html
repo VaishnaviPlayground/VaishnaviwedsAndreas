@@ -58,16 +58,16 @@ body{margin:0;color:var(--ink);font:500 16px/1.3 var(--serif);font-variant-numer
 .cp svg{display:block;width:100%;height:100%;overflow:visible}
 .cp .o-de{opacity:var(--a,1)}
 .cp .o-in{opacity:var(--b,0)}
-.hand{top:4cqw;left:50%;width:11.5cqw;margin-left:-5.75cqw;pointer-events:none;z-index:3;transition:opacity .4s}
+.hand{top:3.5cqw;left:50%;width:7cqw;margin-left:-3.5cqw;pointer-events:none;z-index:3;transition:opacity .4s}
 .scn.busy .hand{opacity:0;transition-duration:.15s}
 .hand i{display:block;animation:swl 2.6s cubic-bezier(.45,0,.3,1) infinite}
 .scn.ind .hand i{animation-name:swr}
-.hand svg{display:block;width:100%;height:auto;overflow:visible;filter:drop-shadow(0 .5cqw .7cqw rgba(40,30,20,.3))}
+.hand svg{display:block;width:100%;height:auto;overflow:visible;filter:drop-shadow(0 .3cqw .5cqw rgba(40,30,20,.3))}
 .hand .rp{fill:none;stroke:#fff;stroke-width:1.6;transform-box:fill-box;transform-origin:center;animation:rp 2.6s ease-out infinite;opacity:0}
-@keyframes swl{0%,8%{transform:translateX(11cqw) scale(1);opacity:0}16%{transform:translateX(11cqw) scale(1);opacity:1}26%{transform:translateX(11cqw) scale(.84)}
- 70%{transform:translateX(-11cqw) scale(.84);opacity:1}80%{transform:translateX(-11cqw) scale(1);opacity:0}100%{transform:translateX(-11cqw);opacity:0}}
-@keyframes swr{0%,8%{transform:translateX(-11cqw) scale(1);opacity:0}16%{transform:translateX(-11cqw) scale(1);opacity:1}26%{transform:translateX(-11cqw) scale(.84)}
- 70%{transform:translateX(11cqw) scale(.84);opacity:1}80%{transform:translateX(11cqw) scale(1);opacity:0}100%{transform:translateX(11cqw);opacity:0}}
+@keyframes swl{0%,8%{transform:translateX(7cqw) scale(1);opacity:0}16%{transform:translateX(7cqw) scale(1);opacity:1}26%{transform:translateX(7cqw) scale(.84)}
+ 70%{transform:translateX(-7cqw) scale(.84);opacity:1}80%{transform:translateX(-7cqw) scale(1);opacity:0}100%{transform:translateX(-7cqw);opacity:0}}
+@keyframes swr{0%,8%{transform:translateX(-7cqw) scale(1);opacity:0}16%{transform:translateX(-7cqw) scale(1);opacity:1}26%{transform:translateX(-7cqw) scale(.84)}
+ 70%{transform:translateX(7cqw) scale(.84);opacity:1}80%{transform:translateX(7cqw) scale(1);opacity:0}100%{transform:translateX(7cqw);opacity:0}}
 @keyframes rp{0%,18%{transform:scale(.3);opacity:0}26%{transform:scale(.6);opacity:.95}46%{transform:scale(1.9);opacity:0}100%{opacity:0}}
 .msg{margin-top:clamp(4cqw,3.2vh,7cqw);width:84cqw;font:500 4.7cqw/1.3 var(--serif);text-wrap:balance}
 .rs{margin-top:clamp(2.5cqw,1.9vh,4cqw);font:400 7.6cqw/1 var(--hand);color:var(--rust);white-space:nowrap}
@@ -111,7 +111,7 @@ body{margin:0;color:var(--ink);font:500 16px/1.3 var(--serif);font-variant-numer
 <circle cx="61" cy="206" r="5.5" fill="#8fae78"/><circle cx="80" cy="208" r="5" fill="#8fae78"/><circle cx="66" cy="199" r="7" fill="#e88aa0"/><circle cx="76" cy="201" r="6" fill="#fff" stroke="#e3dccd"/><circle cx="70" cy="208" r="6" fill="#c2185b"/></g>
 <g class="o-in"><path d="M78 172q26-10 54 0l22 64h-98z" fill="#b3202a"/><path d="M56 228h98l2 8h-102z" fill="#e2b33c"/><path d="M132 172l-56 62h14l52-52z" fill="#e2b33c"/>
 <path d="M82 176q22 42 46 0" stroke="#f28c1e" stroke-width="7" stroke-dasharray="0 8" stroke-linecap="round" fill="none"/></g>
-<path d="M128 176q14 4 22 18" stroke="#d29b70" stroke-width="7" fill="none" stroke-linecap="round"/><circle cx="150" cy="196" r="7" fill="#d29b70"/>
+<path d="M128 176q16 4 25 18" stroke="#d29b70" stroke-width="7" fill="none" stroke-linecap="round"/><circle cx="154" cy="196" r="7" fill="#d29b70"/>
 <circle cx="105" cy="132" r="36" fill="#d29b70"/><path d="M68 132q-2-42 38-42q40 0 36 44q-8-24-30-28q-26 4-44 26z" fill="#1d1416"/>
 <circle cx="92" cy="134" r="3.4" fill="#1d1416"/><circle cx="118" cy="134" r="3.4" fill="#1d1416"/><path d="M94 148q11 10 22 0" stroke="#8a1c2a" stroke-width="3" fill="none" stroke-linecap="round"/>
 <circle cx="70" cy="146" r="4" fill="#e2b33c"/><circle cx="140" cy="146" r="4" fill="#e2b33c"/>
@@ -126,19 +126,19 @@ body{margin:0;color:var(--ink);font:500 16px/1.3 var(--serif);font-variant-numer
 <path d="M186 144H204L195 178Z" fill="#fff"/><path d="M186 144L195 178L204 144" stroke="#3a3a44" stroke-width="2" fill="none"/>
 <path d="M188 147l7 4 7-4v9l-7-4-7 4z" fill="#1b1b20"/><circle cx="195" cy="186" r="1.7" fill="#3a3a44"/><circle cx="195" cy="195" r="1.7" fill="#3a3a44"/>
 <circle cx="211" cy="161" r="4" fill="#e88aa0"/><circle cx="214" cy="165" r="2.5" fill="#8fae78"/>
-<path d="M170 151Q159 176 157 198L166 197L170.4 198L167 153Z" fill="#1b1b20"/><path d="M170 153Q159 176 157 198M221 153Q227 176 225 196" stroke="#1b1b20" stroke-width="10" fill="none" stroke-linecap="round"/>
-<path d="M172 160Q167.4 176 162 196M216 160Q220 176 220 196" stroke="#3a3a44" stroke-width="1.4" fill="none"/></g>
+<path d="M169 153Q163 176 165 196M221 153Q227 176 225 196" stroke="#1b1b20" stroke-width="10" fill="none" stroke-linecap="round"/>
+<path d="M174 160Q170 176 170 196M216 160Q220 176 220 196" stroke="#3a3a44" stroke-width="1.4" fill="none"/></g>
 <g class="o-in"><ellipse cx="183" cy="242" rx="10" ry="4.5" fill="#f1cdb0"/><ellipse cx="208" cy="242" rx="10" ry="4.5" fill="#f1cdb0"/>
 <path d="M167 153Q167 144 177 144H213Q223 144 223 153L218 200H172Z" fill="#f1cdb0"/>
-<path d="M170 151Q159 176 157 198L166 196L171.5 195L167 153Z" fill="#f1cdb0"/><path d="M170 153Q159 176 157 198M221 153Q227 176 225 196" stroke="#f1cdb0" stroke-width="9" fill="none" stroke-linecap="round"/>
-<path d="M172 160Q167.4 176 162.5 192M217 160Q221 176 221 192" stroke="#dcae8c" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M169 153Q163 176 165 196M221 153Q227 176 225 196" stroke="#f1cdb0" stroke-width="9" fill="none" stroke-linecap="round"/>
+<path d="M173 160Q169 176 169 192M217 160Q221 176 221 192" stroke="#dcae8c" stroke-width="1.5" fill="none" stroke-linecap="round"/>
 <g stroke="#cf9b74" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".8"><path d="M195 172V193"/><path d="M186 176q4 2.5 7 0M197 176q3 2.5 7 0M187 183q3 2.5 6 0M197 183q3 2.5 6 0M188 190q2.5 2 5 0M197 190q2.5 2 5 0"/></g>
 <path d="M214 146Q204 172 176 196" stroke="#c9a15a" stroke-width="2.6" fill="none"/><path d="M214 146Q204 172 176 196" stroke="#fffaf0" stroke-width="1.4" fill="none"/>
 <path d="M170 196H220L223 240H167Z" fill="#fffaf0" stroke="#e3dccd" stroke-width="1.2"/><path d="M167.4 233H222.6L223 240H167Z" fill="#e2b33c"/>
 <path d="M200 199V233" stroke="#e2b33c" stroke-width="3"/><path d="M186 200Q184 216 182 232M210 200Q212 216 213 232" stroke="#ebe5d8" stroke-width="1.3" fill="none"/>
 <rect x="169" y="193" width="52" height="7" rx="3" fill="#fffaf0" stroke="#e3dccd" stroke-width="1.2"/><path d="M171 196.5H219" stroke="#e2b33c" stroke-width="1.6"/>
 <path d="M177 148Q195 184 213 148" stroke="#f28c1e" stroke-width="7" stroke-dasharray="0 8" stroke-linecap="round" fill="none"/></g>
-<circle cx="157" cy="201" r="6.5" fill="#f1cdb0"/><circle cx="225" cy="200" r="6" fill="#f1cdb0"/>
+<circle cx="165" cy="200" r="6" fill="#f1cdb0"/><circle cx="225" cy="200" r="6" fill="#f1cdb0"/>
 <g transform="translate(195 104) scale(1.03) translate(-195 -132)"><circle cx="195" cy="132" r="36" fill="#f1cdb0"/>
 <path d="M156 134q-6-48 40-48q46 0 38 50q-6-24-20-28q-22 8-42 2q-10 6-16 24z" fill="#9a6a3c"/>
 <circle cx="182" cy="134" r="3.4" fill="#2a1c14"/><circle cx="208" cy="134" r="3.4" fill="#2a1c14"/><path d="M184 148q11 10 22 0" stroke="#9c4a3a" stroke-width="3" fill="none" stroke-linecap="round"/></g>
